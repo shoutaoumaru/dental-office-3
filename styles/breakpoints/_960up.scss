@@ -1,0 +1,287 @@
+.c-txt-sm {
+  font-size: 15px;
+}
+
+.c-txt-md {
+  font-size: 20px;
+}
+
+.c-txt-xs {
+  font-size: 12px;
+}
+
+.c-title {
+  font-size: 26px;
+}
+
+.c-subtitle {
+  font-size: 24px;
+}
+
+#pagination {
+  height: 560px;
+}
+
+//.p-doctor
+.p-doctor {
+  & .simpleParallax {
+    width: 48%;
+    height: 280px;
+  }
+}
+
+//.p-point
+.p-point {
+  & .c-container {
+    padding: 0 4vw;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: block;
+    width: 31%;
+
+    & h2 {
+      & strong {
+        font-size: 19px;
+      }
+
+      & em {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__desc {
+    width: 100%;
+  }
+}
+
+//.p-access
+.p-access {
+  & figure {
+    margin-top: 0;
+  }
+
+  & address {
+    padding: 20px;
+    margin: 30px 0 5px 0;
+  }
+}
+
+//.p-footer
+.p-footer {
+  & .sns-list {
+    margin: -6vw 17px 0 0;
+  }
+}
+
+.c-header {
+  padding: 2vw 0 10vw 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .mobile-container {
+    display: none;
+  }
+
+  .sp-navbtn {
+    display: none;
+  }
+}
+
+.p-header {
+  padding: 3vw 0 5vw 0;
+
+  .logo-wrap {
+    display: none;
+  }
+}
+
+.mobile-container {
+  display: none;
+}
+
+//* * * * * * * news-page * * * * * * *   
+.c-news {
+  margin-top: 15vw;
+
+  &__link {
+    padding: 4vw;
+
+    & span,
+    & p {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+// * * * * * * * * * news-sl-page * * * * * * 
+.c-news-sl {
+  padding: 35vw 10vw 20vw 10vw;
+
+  &__contents {
+    padding: 10vw 0;
+
+    & p {
+      font-size: 1rem;
+    }
+  }
+
+  &__link {
+    text-align: center;
+  }
+
+  & .more-link {
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+  }
+
+  &__date {
+    font-size: 1.4rem;
+  }
+}
+
+// * * * * * * * * * about-page * * * * * * 
+.about-wrapper {
+
+  .c-policy {
+    margin-top: 10%;
+
+    &__title {
+      margin-bottom: 10%;
+    }
+  }
+
+  .policy2 {
+    &__desc {
+      & .c-txt-sm {
+        line-height: 2;
+      }
+    }
+  }
+
+  .policy3 {
+    &__desc {
+      & .c-txt-sm {
+        line-height: 2;
+      }
+    }
+  }
+}
+
+// * * * * * * * * * doctor-page * * * * * * 
+.doc-contents {
+  & .c-txt-sm {
+    line-height: 2;
+  }
+
+  & .doc-title {
+    & .c-title {
+      font-size: 28px;
+    }
+
+    & .c-subtitle {
+      font-size: 32px;
+    }
+  }
+
+  & .doc-block {
+    & .career {
+      margin: 35vw 0 0 0;
+    }
+  }
+
+  & .doc-name {
+    & .doc-director {
+      font-size: 22px;
+    }
+
+    & .doc-name-ja {
+      font-size: 30px;
+    }
+  }
+}
+
+// * * * * * * * * * service-page * * * * * * 
+.service-contents {
+  .c-txt-lr {
+    font-size: 28px;
+  }
+}
+
+// * * * * * * * * * faq-page * * * * * * 
+.faq-contents {
+  & .faq {
+    margin: 20vw 0 0 0;
+  }
+}
+
+// * * * * * * * * * recruit-page * * * * * * 
+.contents-recruit {
+  margin-top: 15vw;
+
+  & .recruit {
+    &-message {
+      &__wrap {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &__block {
+        width: 31%;
+      }
+    }
+
+    &-subtitle {
+      margin-bottom: 5vw;
+    }
+
+  }
+
+  .c-table01 {
+    td {
+      line-height: 2;
+      font-size: 1rem;
+    }
+  }
+}
+
+// * * * * * * * * * recruit-page * * * * * * 
+.contents-recruit {
+  & .recruit {
+    &-message {
+      &__wrap {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &__block {
+        width: 31%;
+      }
+    }
+
+    &-subtitle {
+      margin-bottom: 5vw;
+    }
+
+  }
+
+  .c-table01 {
+    td {
+      line-height: 2;
+      font-size: 1rem;
+    }
+  }
+}

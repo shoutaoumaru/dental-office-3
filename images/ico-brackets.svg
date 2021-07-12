@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="42px" viewBox="0 0 22 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-brackets</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.400000006">
+        <g id="tpl/Ourservice" transform="translate(-213.000000, -405.000000)" fill="#7392B7" fill-rule="nonzero">
+            <g id="Group-6" transform="translate(215.000000, 406.000000)">
+                <path d="M19.9949806,-0.5 L19.9949806,0.5 C9.2282001,0.5 0.5,9.2282001 0.5,19.9949806 C0.5,30.761761 9.2282001,39.4899611 19.9949806,39.4899611 L19.9949806,40.4899611 C8.67591535,40.4899611 -0.5,31.3140458 -0.5,19.9949806 C-0.5,8.67591535 8.67591535,-0.5 19.9949806,-0.5 Z" id="Oval"></path>
+                <path d="M19.9949806,3.45628442 L19.9949806,4.45628442 C11.4131957,4.45628442 4.45628442,11.4131957 4.45628442,19.9949806 C4.45628442,28.5767655 11.4131957,35.5336767 19.9949806,35.5336767 L19.9949806,36.5336767 C10.8609109,36.5336767 3.45628442,29.1290502 3.45628442,19.9949806 C3.45628442,10.8609109 10.8609109,3.45628442 19.9949806,3.45628442 Z" id="Oval"></path>
+            </g>
+        </g>
+    </g>
+</svg>

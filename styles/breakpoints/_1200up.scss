@@ -1,0 +1,211 @@
+.c-title {
+  font-size: 32px;
+  margin-bottom: 3vw;
+}
+
+.c-txt-sm {
+  font-size: 18px;
+}
+
+.c-container {
+  padding: 0 8vw;
+}
+
+.pc-container {
+  justify-content: space-around;
+
+  & .logo__img-pc {
+    margin-top: 10px;
+  }
+}
+
+.btn-link2 {
+  & a {
+    & span {
+      font-size: 16px;
+    }
+  }
+}
+
+//.p-top
+.p-top {
+
+  & .swiper-container {
+    height: 50vh;
+
+    & .view-sp {
+      display: none;
+    }
+  }
+}
+
+//.p-message
+.p-message {
+  margin-bottom: 10%;
+}
+
+//.p-doctor
+.p-doctor {
+  &__desc {
+    margin-bottom: 0;
+  }
+
+  &__img-wrap {
+    margin-top: 15vw;
+  }
+}
+
+//.p-point
+.p-point {
+  margin-top: 8%;
+}
+
+//.p-access
+.p-access {
+  & .table-schedule {
+    & td {
+      &:first-of-type {
+        text-align: center;
+        font-size: 18px;
+      }
+    }
+
+    & td,
+    th {
+      font-size: 18px;
+      padding: 14px 5px 10px;
+    }
+  }
+
+  & address {
+    margin: 33px 0;
+  }
+}
+
+//.p-news
+.p-news {
+  margin-bottom: 10%;
+
+  & a {
+    font-size: 18px;
+  }
+}
+
+//.p-footer
+.p-footer {
+  & .sns-list {
+    margin: -4vw 17px 0 0;
+  }
+}
+
+// * * * * * * * * * about-page * * * * * * 
+.about-wrapper {
+  padding-bottom: 10vw;
+
+  & .swiper-container {
+    height: 100vh;
+  }
+
+  & .c-policy {
+    margin-bottom: 22%;
+
+    & .btn-link {
+      & a {
+        font-size: 18px;
+        background: #8D9CAB url(/images/ico-arrow-white.svg) no-repeat left 35px center;
+      }
+    }
+  }
+
+  & .simple {
+    margin-bottom: 15%;
+  }
+
+  & .policy-contents {
+    & .title-circle {
+      & strong {
+        font-size: 1rem;
+      }
+    }
+
+    & .num-list {
+      & li {
+        & strong {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+// * * * * * * * * * doc-contents-page * * * * * * 
+.doc-contents {
+  padding-bottom: 10vw;
+
+  & .doc-title {
+    margin-bottom: 20vw;
+  }
+
+  & .doc-img {
+    height: 100vh;
+    margin: 0 -8vw;
+
+    & figure {
+      height: 100%;
+    }
+  }
+
+  & .doc-desc {
+    top: -120px;
+  }
+
+  & .doc-block {
+    & .career {
+      margin: 40vw 0 0 0;
+
+      & p {
+        font-size: 18px;
+      }
+
+      & img {
+        width: 84%;
+      }
+    }
+  }
+}
+
+// * * * * * * * * * faq-page * * * * * * 
+.faq-contents {
+  & .c-container {
+    padding: 0 15vw;
+  }
+
+  & .faq {
+    margin: 14vw 0 0 0;
+
+    .c-txtarea01 {
+      margin-bottom: 10vw;
+    }
+
+    & dt {
+      padding: 2.6vw 0 1vw 0;
+
+      &::before {
+        left: 10px;
+        font-size: 32px;
+      }
+    }
+
+    & dd {
+      &::before {
+        left: 10px;
+        font-size: 34px;
+      }
+    }
+  }
+}
+
+// * * * * * * * * * news-sl-page * * * * * * 
+.c-news-sl {
+  padding: 16vw 10vw 0 10vw;
+}

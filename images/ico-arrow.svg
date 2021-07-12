@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="8.7" cy="8.7" r="8.7"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="parts/burret/↓">
+            <g id="Group-15" transform="translate(0.300000, 0.300000)">
+                <g id="Oval-9">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#7392B7" stroke-width="1" cx="8.7" cy="8.7" r="8.2"></circle>
+                </g>
+                <g id="Group-14" transform="translate(5.200000, 7.193604)" fill="#7392B7" fill-rule="nonzero">
+                    <path d="M0.124803473,0.682842712 C-0.0416011577,0.526632996 -0.0416011577,0.273367004 0.124803473,0.117157288 C0.291208104,-0.0390524292 0.561003317,-0.0390524292 0.727407948,0.117157288 L3.74043032,2.94558441 C3.90683495,3.10179413 3.90683495,3.35506012 3.74043032,3.51126984 C3.57402569,3.66747955 3.30423048,3.66747955 3.13782585,3.51126984 L0.124803473,0.682842712 Z" id="Line-3"></path>
+                    <path d="M3.18809325,0.682842712 C3.02168862,0.526632996 3.02168862,0.273367004 3.18809325,0.117157288 C3.35449789,-0.0390524292 3.6242931,-0.0390524292 3.79069773,0.117157288 L6.8037201,2.94558441 C6.97012473,3.10179413 6.97012473,3.35506012 6.8037201,3.51126984 C6.63731547,3.66747955 6.36752026,3.66747955 6.20111563,3.51126984 L3.18809325,0.682842712 Z" id="Line-3" transform="translate(4.995907, 1.814214) scale(-1, 1) translate(-4.995907, -1.814214) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

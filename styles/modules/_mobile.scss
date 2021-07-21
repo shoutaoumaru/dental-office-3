@@ -55,16 +55,15 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: $cWhite;
   opacity: .7;
-  height: 6vh;
+  height: 6.5vh;
   width: 100%;
-  z-index: 100;
-  transition: all .3s;
+  z-index: 2000;
+  transition: all.3s;
 
   &__container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     justify-content: space-between;
     position: absolute;
@@ -72,11 +71,25 @@
     bottom: 0;
     left: 0;
     right: 0;
-    width: 60vw;
+    width: 77vw;
     margin: auto;
 
     & a {
+      position: relative;
+      color: $cBlack;
+      font-size: 14px;
+      letter-spacing: 1px;
       display: block;
+      padding-right: 18px;
+    }
+
+    & .tel {
+      letter-spacing: 2px;
+    }
+
+    & a:hover,
+    a:active {
+      text-decoration: underline;
     }
   }
 }
@@ -173,7 +186,7 @@
     text-align: left;
     list-style: none;
     padding-left: 35px;
-    padding-top: 170px;
+    padding-top: 150px;
   }
 
   &__li {
@@ -192,7 +205,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 100;
+  z-index: 4000s;
   overflow: hidden;
   height: 64px;
   width: 100%;
@@ -228,7 +241,7 @@
 // メニューオープン
 .menu-open {
   &.mobile-menu {
-    z-index: 50;
+    z-index: 3000;
     transition: all 0.5s;
     transform: none;
 

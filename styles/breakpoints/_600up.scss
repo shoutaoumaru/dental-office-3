@@ -220,14 +220,26 @@
 
 // * * * * * * * * * news-page * * * * * * 
 .c-news {
+  padding: 0;
+
   & .c-container {
     padding: 0 10vw;
   }
 
   &__title {
+    margin-bottom: 5vw;
+
     & .c-head01 {
       font-size: 2.5rem;
     }
+  }
+
+  &__link {
+    padding: 3vw;
+  }
+
+  & .page-numbers {
+    margin: 5vw 0;
   }
 }
 

@@ -1055,7 +1055,7 @@ a:visited {
 
 //* * * * * * news-page * * * * * * * 
 .c-news {
-  padding: 50px 0 10vw 0;
+  padding: 50px 0 0 0;
   letter-spacing: 3px;
 
   &__item {
@@ -1196,10 +1196,6 @@ a:visited {
 
   &__date {
     color: rgb(173, 173, 173);
-  }
-
-  &__list {
-    padding: 15vw 0 0 0;
   }
 
   &__contents {

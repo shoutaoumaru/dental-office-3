@@ -1,5 +1,5 @@
 .c-title {
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 3vw;
 }
 
@@ -100,7 +100,6 @@
 
 // * * * * * * * * * about-page * * * * * * 
 .about-wrapper {
-  padding-bottom: 10vw;
 
   & .swiper-container {
     height: 100vh;
@@ -202,6 +201,24 @@
         font-size: 34px;
       }
     }
+  }
+}
+
+// * * * * * * * * * news-page * * * * * * 
+.c-news {
+  margin-top: 14vw;
+  padding: 0 0 5vw 0;
+
+  &__title {
+    margin-bottom: 5vw;
+  }
+
+  &__link {
+    padding: 2vw 4vw;
+  }
+
+  & .page-numbers {
+    margin: 2vw 0 0 0;
   }
 }
 

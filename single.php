@@ -6,9 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>歯科テンプレート3/NEWS/single</title>
-  <link rel="stylesheet" href="../styles/vendors/bootstrap-reboot.css">
-  <link rel="stylesheet" href="../styles/vendors/animsition.min.css">
-  <link rel="stylesheet" href="../styles/style.css">
+  <?php get_header(); ?>
 </head>
 
 <body>
@@ -25,36 +23,36 @@
       </div>
       <!-- /.mobile-container -->
       <div class="logo__img">
-        <a class="animsition-link" href="/">
+        <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
           <div class="logo"></div>
         </a>
       </div>
       <!-- /.logo -->
       <div class="pc-container">
         <div class=" logo__img-pc">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/"><span>ホーム</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/')); ?>"><span>ホーム</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link " href="/about/about.html"><span>当医院について</span></a>
+              <a class="pc-nav-link animsition-link " href=" <?php echo esc_url( home_url('/about')); ?>"><span>当医院について</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/service/service.html"><span>診療内容</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/service')); ?>"><span>診療内容</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/doctor/doctor.html"><span>医師紹介</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>"><span>医師紹介</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/faq/faq.html"><span>よくあるご質問</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>"><span>よくあるご質問</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/recruit/recruit.html"><span>採用情報</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/recluit')); ?>"><span>採用情報</span></a>
             </li>
           </ul>
         </nav>
@@ -75,24 +73,18 @@
         <ul class="c-news-sl__list">
           <li class="c-news-sl__block">
             <div class="c-news-sl__tit">
-              <p class="c-txt-md">新型コロナウィルス感染予防について。</p>
-              <span class="c-news-sl__date">2021.4.5</span>
+              <p class="c-txt-md"><?php the_title(); ?></p>
+              <span class="c-news-sl__date"><?php the_date(); ?></span>
             </div>
+            <?php the_post_thumbnail('thumbnail'); ?>
             <div class="c-news-sl__contents">
-              <p>2021年5月7日（金）より期間限定で、「芳醇フランボワーズチーズタルト」を国内全店舗にて販売いたします。
-
-                チーズムースにフランボワーズのジャムとピューレを配合し、クリームチーズの“コク”とフランボワーズの“甘酸っぱさ”が絶妙にマッチした、オリジナルの「フランボワーズチーズムース」に仕上げました。
-
-                クッキー生地では、フランボワーズのイメージから連想される“レッド”を表現。
-                ほんのりと感じられる「ココア」の風味が「フランボワーズチーズムース」との相性もぴったりです。
-
+              <p><?php the_content(); ?>
               </p>
             </div>
           </li>
-
         </ul>
         <div class="c-news-sl__link">
-          <a class="more-link animsition-link" href="/news/news.html"><span class="readmore">一覧へ戻る</span></a>
+          <a class="more-link animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>"><span class="readmore">一覧へ戻る</span></a>
         </div>
       </div>
     </section>
@@ -101,7 +93,7 @@
       <div class="c-container">
         <div class="p-footer-wrap">
           <div class="logo">
-            <a href="/" title="トップページ"><img src="/images/common/riv_logo_official2.png" alt="rivround" /></a>
+            <a href=" <?php echo esc_url( home_url('/')); ?>" title="トップページ"><img src="<?php echo get_template_directory_uri(); ?>/images/common/riv_logo_official2.png" alt="rivround" /></a>
           </div>
           <div class="p-footer__schedule">
             <table class="table-schedule">
@@ -177,25 +169,25 @@
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/">ホーム</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">ホーム</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/about/about.html">当医院について</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/about')); ?>">当医院について</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/service/service.html">診療内容</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/service')); ?>">診療内容</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/doctor/doctor.html">医師紹介</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>">医師紹介</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/faq/faq.html">よくある質問</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>">よくある質問</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/news/news.html">お知らせ</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>">お知らせ</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/recruit/recruit.html">採用情報</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/recluit')); ?>">採用情報</a>
           </li>
         </ul>
         <div class="reserve-btn-wrap">
@@ -217,13 +209,7 @@
     <!-- /.mobile-menu -->
   </div>
   <!-- .superwrapper -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/scripts/vendors/animsition.min.js"></script>
-  <script src="/scripts/libs/page.js"></script>
-  <script src="../scripts/libs/mobile-menu.js"></script>
-  <script src="../scripts/libs/scroll-btn.js"></script>
-  <script src="../scripts/libs/scroll.js"></script>
-  <script src="../scripts/c-main.js"></script>
+  <?php get_template_part('includes/c-footer'); ?>      
 </body>
 
 </html>

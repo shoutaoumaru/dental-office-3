@@ -8,7 +8,7 @@
 
   & .logo {
     text-align: center;
-    background-image: url(/images/common/riv_logo_official2.png);
+    background-image: url(../images/common/riv_logo_official2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     width: 110px;
 
     &.inview {
-      background-image: url(/images/common/riv_logo_official-wh2.png);
+      background-image: url(../images/common/riv_logo_official-wh2.png);
     }
   }
 
@@ -39,7 +39,7 @@
 
 .logo-pc {
   text-align: center;
-  background-image: url(/images/common/riv_logo_official2.png);
+  background-image: url(../images/common/riv_logo_official2.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@
   width: 200px;
 
   &.inview {
-    background-image: url(/images/common/riv_logo_official-wh2.png);
+    background-image: url(../images/common/riv_logo_official-wh2.png);
   }
 }
 
@@ -200,7 +200,7 @@
           right: 5px;
           height: 12px;
           width: 12px;
-          background-image: url(/images/common/icon-link-1-black.png);
+          background-image: url(../images/common/icon-link-1-black.png);
           background-size: contain;
           background-repeat: no-repeat;
         }
@@ -219,7 +219,7 @@
           right: 10px;
           height: 12px;
           width: 12px;
-          background-image: url(/images/common/icon-tel.png);
+          background-image: url(../images/common/icon-tel.png);
           background-size: contain;
           background-repeat: no-repeat;
         }

@@ -1,3 +1,7 @@
+<?php
+ /* Template Name: about
+ */
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -5,10 +9,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>歯科テンプレート | about</title>
-  <link rel="stylesheet" href="../styles/vendors/animsition.min.css" />
-  <link rel="stylesheet" href="../styles/vendors/bootstrap-reboot.css" />
-  <link rel="stylesheet" href="../styles/vendors/swiper.min.css" />
-  <link rel="stylesheet" href="/styles/style.css" />
+  <?php get_header(); ?>
 </head>
 
 <body>
@@ -25,36 +26,36 @@
       </div>
       <!-- /.mobile-container -->
       <div class="logo__img">
-        <a class="animsition-link" href="/">
+        <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
           <div class="logo"></div>
         </a>
       </div>
       <!-- /.logo -->
       <div class="pc-container">
         <div class=" logo__img-pc">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/"><span>ホーム</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/')); ?>"><span>ホーム</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/service/service.html"><span>診療内容</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/service')); ?>"><span>診療内容</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/doctor/doctor.html"><span>医師紹介</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>"><span>医師紹介</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/faq/faq.html"><span>よくあるご質問</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>"><span>よくあるご質問</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/news/news.html"><span>お知らせ</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>"><span>お知らせ</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/recruit/recruit.html"><span>採用情報</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/recruit')); ?>"><span>採用情報</span></a>
             </li>
           </ul>
         </nav>
@@ -73,7 +74,7 @@
     <div id="main-contents">
       <div class="c-topview appear up">
         <div class="c-topview__img item">
-          <img src="/images/home/tool__1@pc.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/home/tool__1@pc.jpg" alt="">
         </div>
       </div>
       <section id="policy" class="c-policy">
@@ -83,7 +84,7 @@
           </h1>
           <div class="c-policy__block appear up">
             <figure class="c-policy__img item">
-              <img src="/images/home/medical__2@pc.jpg" alt="診療のイメージ" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/home/medical__2@pc.jpg" alt="診療のイメージ" />
             </figure>
             <div class="c-policy__txt item">
               <h2 class="c-title">
@@ -103,7 +104,7 @@
               </p>
               <div class="btn-set">
                 <div class="btn-link">
-                  <a class="animsition-link" href="/doctor/doctor.html" title="診療内容">診療内容</a>
+                  <a class="animsition-link" href=" <?php echo esc_url( home_url('/scripts')); ?>" title="診療内容">診療内容</a>
                 </div>
               </div>
             </div>
@@ -113,7 +114,7 @@
       <section id="simple" class="simple">
         <div class="c-container appear up">
           <figure class="simple__img item">
-            <img src="/images/home/room@pc.jpg" alt="シンプルで清潔、開放的な院内。" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/room@pc.jpg" alt="シンプルで清潔、開放的な院内。" />
           </figure>
           <div class="simple__desc item">
             <h2 class="c-title">
@@ -132,7 +133,7 @@
       <section class="kids">
         <div class="c-container appear up">
           <figure class="kids__img item">
-            <img src="/images/home/kid-room.jpg" alt="診療室にも、キッズルーム。" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/home/kid-room.jpg" alt="診療室にも、キッズルーム。" />
           </figure>
           <div class="kids__desc item">
             <h2 class="c-title">
@@ -164,8 +165,8 @@
           </section>
           <section class="policy2 appear up">
             <figure class="policy2__img item">
-              <img src="/images/policy/img-rubberdam1@2x.jpg" alt="">
-              <img src="/images/policy/img-rubberdam2.jpg" alt="" class="view-pc">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/policy/img-rubberdam1@2x.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/policy/img-rubberdam2.jpg" alt="" class="view-pc">
             </figure>
             <div class="policy2__desc item">
               <h2>
@@ -201,8 +202,8 @@
           </section>
           <section class="policy3 appear up">
             <figure class="policy3__img item">
-              <img src="/images/home/kakudaikyou.jpg" alt="">
-              <img src="/images/home/tool3.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/home/kakudaikyou.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/home/tool3.jpg" alt="">
             </figure>
             <div class="policy3__desc item">
               <h2>
@@ -245,13 +246,13 @@
             <!-- item01 -->
             <div id="swiper-slide" class="swiper-slide">
               <div class="swiper-slide__box">
-                <img class="pagination-img" src="../images/home/tool__1@pc.jpg" />
+                <img class="pagination-img" src="<?php echo get_template_directory_uri(); ?>/images/home/tool__1@pc.jpg" />
                 <h3 class="p-service__name">一般診療</h3>
                 <p class="c-txt-sm">
                   歯周病予防、ご高齢の方の入れ歯づくりまで、幅広い世代の方々の歯を治療します。そしてさらに大事なのは、治療後の歯のメンテナンス。虫歯予防や歯周病予防のセルフケアのやり方もお教えします。
                 </p>
                 <div class="btn-link2">
-                  <a class="animsition-link" href="/service/service.html#service1" title="一般治療について"
+                  <a class="animsition-link" href=" <?php echo esc_url( home_url('/service')); ?>" title="一般治療について"
                     tabindex="0"><span>一般治療について</span></a>
                 </div>
               </div>
@@ -259,13 +260,13 @@
             <!-- item02 -->
             <div id="swiper-slide" class="swiper-slide">
               <div class="swiper-slide__box">
-                <img class="pagination-img" src="../images/home/tool3.jpg" />
+                <img class="pagination-img" src="<?php echo get_template_directory_uri(); ?>/images/home/tool3.jpg" />
                 <h3 class="p-service__name">口腔外科</h3>
                 <p class="c-txt-sm">
                   親知らずの抜歯、口内炎などの粘膜の病気や外傷など、口の中の外科的処置を行うのが口腔外科です。RivRound歯科でも、この口腔外科治療が可能です。
                 </p>
                 <div class="btn-link2">
-                  <a class="animsition-link" href="/service/service.html#service2" title="口腔外科について"
+                  <a class="animsition-link" href=" <?php echo esc_url( home_url('/service')); ?>" title="口腔外科について"
                     tabindex="0"><span>口腔外科について</span></a>
                 </div>
               </div>
@@ -273,13 +274,13 @@
             <!-- item03 -->
             <div id="swiper-slide" class="swiper-slide">
               <div class="swiper-slide__box">
-                <img class="pagination-img" src="../images/home/whitenig__2@pc.jpg" />
+                <img class="pagination-img" src="<?php echo get_template_directory_uri(); ?>/images/home/whitenig__2@pc.jpg" />
                 <h3 class="p-service__name">自由診療</h3>
                 <p class="c-txt-sm">
                   自由診療とは、「保険外診療」のこと。インプラントや、ホワイトニングなどの審美治療がこれに当たります。RivRound歯科では、予防治療という観点から最適な方法をお勧めします。
                 </p>
                 <div class="btn-link2">
-                  <a class="animsition-link" href="/service/service.html#service3" title="自由診療について"
+                  <a class="animsition-link" href=" <?php echo esc_url( home_url('/service')); ?>" title="自由診療について"
                     tabindex="0"><span>自由診療について</span></a>
                 </div>
               </div>
@@ -295,7 +296,7 @@
         <div class="c-container">
           <div class="p-footer-wrap">
             <div class="logo">
-              <a class="animsition-link" href="/" title="トップページ"><img src="/images/common/riv_logo_official2.png"
+              <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>" title="トップページ"><img src="<?php echo get_template_directory_uri(); ?>/images/common/riv_logo_official2.png"
                   alt="rivround" /></a>
             </div>
             <div class="p-footer__schedule">
@@ -376,25 +377,25 @@
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/">ホーム</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">ホーム</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/about/about.html">当医院について</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/about')); ?>">当医院について</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/service/service.html">診療内容</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/service')); ?>">診療内容</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/doctor/doctor.html">医師紹介</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/doctor')); ?>">医師紹介</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/faq/faq.html">よくある質問</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>">よくある質問</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/news/news.html">お知らせ</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>">お知らせ</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/recruit/recruit.html">採用情報</a>
+            <a class="animsition-link" href=" <?php echo esc_url( home_url('/recruit')); ?>">採用情報</a>
           </li>
         </ul>
         <div class="reserve-btn-wrap">
@@ -416,16 +417,7 @@
     <!-- /.mobile-menu -->
   </div>
   <!-- /.about-wrapper -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/scripts/vendors/animsition.min.js"></script>
-  <script src="/scripts/libs/page.js"></script>
-  <script src="../scripts/libs/mobile-menu.js"></script>
-  <script src="../scripts/vendors/swiper.min.js"></script>
-  <script src="../scripts/libs/pagination.js"></script>
-  <script src="../scripts/libs/scroll-btn.js"></script>
-  <script src="../scripts/libs/text-animation.js"></script>
-  <script src="../scripts/libs/scroll.js"></script>
-  <script src="../scripts/c-main.js"></script>
+  <?php get_template_part('includes/c-footer'); ?>      
 </body>
 
 </html>

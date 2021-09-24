@@ -1,6 +1,9 @@
 body {
   color: $cBlack;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+  &.hidden {
+    overflow: hidden;
+  }
 }
 
 #main-wrapper {
@@ -95,7 +98,8 @@ a:visited {
   & a {
     display: block;
     box-sizing: border-box;
-    background: #8d9cad url(../images/ico-arrow-white.svg) no-repeat left 18px center;
+    background: #8d9cad url(/images/ico-arrow-white.svg) no-repeat left 18px
+      center;
     background-size: 18px 18px;
     border-radius: 4px;
     width: 100%;
@@ -127,7 +131,7 @@ a:visited {
     margin: 0 auto;
 
     & span {
-      background: url(../images/ico-arrow.svg) no-repeat left center;
+      background: url(/images/ico-arrow.svg) no-repeat left center;
       background-size: 18px 18px;
       min-height: 18px;
       padding: 2px 0 0 32px;
@@ -143,7 +147,7 @@ a:visited {
   position: absolute;
   top: 4px;
   right: 0;
-  background-image: url(../images/common/icon-tel.png);
+  background-image: url(/images/common/icon-tel.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -156,7 +160,7 @@ a:visited {
   position: absolute;
   top: 4px;
   right: 0;
-  background-image: url(../images/common/icon-link-1-black.png);
+  background-image: url(/images/common/icon-link-1-black.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -168,16 +172,15 @@ a:visited {
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     display: block;
-    background-image: url(../images/common/icon-map.png);
+    background-image: url(/images/common/icon-map.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 17px;
     width: 17px;
   }
-
 }
 
 .icon-insta {
@@ -188,11 +191,11 @@ a:visited {
   padding-bottom: 5px;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../images/common/icon-insta-gr.png);
+    background-image: url(/images/common/icon-insta-gr.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -212,7 +215,6 @@ a:visited {
       height: auto;
     }
   }
-
 }
 
 // <!------------ TOP ------------>
@@ -224,7 +226,7 @@ a:visited {
   & .swiper-container {
     height: 45vh;
 
-    @media (max-width:1199px) {
+    @media (max-width: 1199px) {
       & .view-pc {
         display: none;
       }
@@ -245,7 +247,7 @@ a:visited {
 
   & td {
     line-height: 1.5;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -304,7 +306,6 @@ a:visited {
   }
 
   &__text {
-
     & h2 {
       margin: -79px 0 15px;
     }
@@ -375,7 +376,6 @@ a:visited {
       letter-spacing: 0.03em;
     }
   }
-
 }
 
 // <!-------- ACCESS -------->
@@ -435,7 +435,8 @@ a:visited {
       & a {
         display: block;
         box-sizing: border-box;
-        background: #295282 url(../images/ico-arrow-white.svg) no-repeat left 18px center;
+        background: #295282 url(/images/ico-arrow-white.svg) no-repeat left 18px
+          center;
         background-size: 18px 18px;
         border-radius: 6px;
         width: 100%;
@@ -493,11 +494,11 @@ a:visited {
         font-size: 0.9em;
 
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           top: 50%;
           right: 9px;
-          background: url(../images/ico-arrow.svg) no-repeat;
+          background: url(/images/ico-arrow.svg) no-repeat;
           background-size: 18px 18px;
           width: 18px;
           height: 18px;
@@ -560,7 +561,6 @@ a:visited {
       height: auto;
     }
   }
-
 
   .inner {
     margin: 10% 0 15%;
@@ -713,7 +713,7 @@ a:visited {
     .policy2 {
       margin-top: 15%;
 
-      @media (max-width:599px) {
+      @media (max-width: 599px) {
         & .view-pc {
           display: none;
         }
@@ -781,7 +781,6 @@ a:visited {
       font-size: 20px;
       letter-spacing: 4px;
       font-weight: normal;
-
     }
   }
 
@@ -817,7 +816,6 @@ a:visited {
 
 // * * * * * * * faq-page * * * * * * ** * * *
 .faq-contents {
-
   .faq {
     margin: 10vw 0 0 0;
 
@@ -842,14 +840,13 @@ a:visited {
       padding: 2.6vw 0 6.6vw 0;
 
       &::before {
-        content: 'Q';
+        content: "Q";
         position: absolute;
         top: 4vw;
         left: 0;
         width: 12px;
         font-size: 20px;
         color: #295282;
-
       }
 
       & span {
@@ -862,7 +859,7 @@ a:visited {
         padding-left: 3vw;
 
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           top: 0;
           bottom: 0;
@@ -870,30 +867,26 @@ a:visited {
           right: 0;
           width: 4vw;
           height: 2.7vw;
-          background-image: url(../images/common/icon_arrow_large--bottom.svg);
+          background-image: url(/images/common/icon_arrow_large--bottom.svg);
           background-position: top center;
           background-repeat: no-repeat;
           background-size: 100%;
-          transition: all .2s;
-
+          transition: all 0.2s;
         }
       }
-
     }
 
     & dd {
-
       position: relative;
 
       &::before {
-        content: 'A';
+        content: "A";
         position: absolute;
         top: 1vw;
         left: 0;
         width: 12px;
         font-size: 22px;
         color: #295282;
-
       }
 
       & .m-description-article {
@@ -905,7 +898,6 @@ a:visited {
         padding-left: 3vw;
       }
     }
-
   }
 }
 
@@ -915,7 +907,6 @@ a:visited {
     margin-top: 15%;
     box-sizing: border-box;
     margin-bottom: 60px;
-
   }
 
   .sec-service {
@@ -944,7 +935,7 @@ a:visited {
     }
 
     & .title-circle {
-      background: url(../images/logo-circle.svg) no-repeat left top;
+      background: url(/images/logo-circle.svg) no-repeat left top;
       background-size: 20px 20px;
       padding: 4px 0 0 40px;
 
@@ -989,7 +980,6 @@ a:visited {
     & img {
       margin-bottom: 5%;
     }
-
   }
 
   .sec-machine {
@@ -1042,7 +1032,6 @@ a:visited {
   }
 
   .service-sec {
-
     & strong {
       display: inline-block;
       border-bottom: 1px solid #bbccdf;
@@ -1053,7 +1042,7 @@ a:visited {
   }
 }
 
-//* * * * * * news-page * * * * * * * 
+//* * * * * * news-page * * * * * * *
 .c-news {
   padding: 50px 0 0 0;
   letter-spacing: 3px;
@@ -1071,9 +1060,8 @@ a:visited {
 
     & p {
       margin-top: 2vw;
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
-
   }
 
   &__date {
@@ -1107,7 +1095,7 @@ a:visited {
       width: 40px;
       height: 40px;
       border-radius: 100%;
-      border: 1px solid #C4CCD1;
+      border: 1px solid #c4ccd1;
       background: #fff;
       margin: 0 1.3vw;
     }
@@ -1122,7 +1110,7 @@ a:visited {
         content: "";
         position: absolute;
         right: 0;
-        background-image: url(../images/common/arrow.png);
+        background-image: url(/images/common/arrow.png);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -1131,16 +1119,15 @@ a:visited {
         height: 12px;
         margin-left: 8px;
       }
-
     }
 
-    @media (max-width:767px) {
+    @media (max-width: 767px) {
       & .next {
         display: none;
       }
     }
 
-    @media (min-width:600px) {
+    @media (min-width: 600px) {
       & .page-numbers:not(.next):not(.prev) {
         width: 45px;
         height: 45px;
@@ -1151,7 +1138,7 @@ a:visited {
       }
     }
 
-    @media (min-width:900px) {
+    @media (min-width: 900px) {
       & .page-numbers:not(.next):not(.prev) {
         width: 55px;
         height: 55px;
@@ -1171,7 +1158,7 @@ a:visited {
 
   &__contents {
     line-height: 2;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   &__title {
@@ -1186,7 +1173,7 @@ a:visited {
   }
 }
 
-//* * * * * * news-single-page * * * * 
+//* * * * * * news-single-page * * * *
 .c-news-sl {
   padding: 10vw 0 20vw 0;
 
@@ -1203,14 +1190,14 @@ a:visited {
     line-height: 2.5;
 
     & p {
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
 
   &__link {
     margin: 0 0 10vw 0;
     text-align: right;
-    font-size: .8rem;
+    font-size: 0.8rem;
 
     & a {
       border-bottom: 1px solid rgb(114, 114, 114);
@@ -1218,11 +1205,11 @@ a:visited {
   }
 }
 
-//* * * * * * * rectuit-page * * * * * * * * * 
+//* * * * * * * rectuit-page * * * * * * * * *
 .contents-recruit {
   padding-top: 60px;
 
-  @media (max-width:599px) {
+  @media (max-width: 599px) {
     th {
       color: $cBlack;
       font-size: 14px;

@@ -71,6 +71,10 @@
       <!-- /.nav-btn -->
     </header>
     <!-- /.p-header -->
+    <div class="c-top-view">
+      <img src="/images/home/clinic__1@pc.jpg" alt="" />
+    </div>
+    <!-- /.c-top-view -->
     <div class="contents-recruit">
       <section class="recruit-message">
         <div class="c-container">
